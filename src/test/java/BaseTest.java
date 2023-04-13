@@ -8,9 +8,7 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeTest;
 import pageOblects.MainPage;
 import pageOblects.RubberDucksPage;
-
 import java.time.Duration;
-
 import static com.codeborne.selenide.Selenide.open;
 
 public class BaseTest {

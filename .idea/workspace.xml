@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b10a24e6-5333-4c59-bd7f-fd772b1a6b07" name="Changes" comment="Add Selenide to the RubberDucksPage">
-      <change beforePath="$PROJECT_DIR$/src/test/java/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/LoginTest.java" afterDir="false" />
+    <list default="true" id="b10a24e6-5333-4c59-bd7f-fd772b1a6b07" name="Changes" comment="Add Selenide to the MainPage and to theRubberDucksPage">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/RubberDucksTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RubberDucksTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pageOblects/RubberDucksPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageOblects/RubberDucksPage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,23 +59,12 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.RubberDucksTest">
-    <configuration name="LoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.RubberDucksTest.containDescriptionDucks">
+    <configuration name="RubberDucksTest.containDescriptionDucks" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ChromDriver" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="LoginTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LoginTest.TestIncorrectLogin" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="ChromDriver" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="LoginTest" />
-      <option name="METHOD_NAME" value="TestIncorrectLogin" />
+      <option name="MAIN_CLASS_NAME" value="RubberDucksTest" />
+      <option name="METHOD_NAME" value="containDescriptionDucks" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -80,22 +72,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RubberDucksTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="RubberDucksTest.containDucks" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ChromDriver" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="RubberDucksTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RubberDucksTest.quantityDucksTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="ChromDriver" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="RubberDucksTest" />
-      <option name="METHOD_NAME" value="quantityDucksTest" />
+      <option name="METHOD_NAME" value="containDucks" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -103,11 +84,35 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RubberDucksTest.sortByDateTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="RubberDucksTest.containDucksDescription" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ChromDriver" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="RubberDucksTest" />
-      <option name="METHOD_NAME" value="sortByDateTest" />
+      <option name="METHOD_NAME" value="containDucksDescription" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RubberDucksTest.containDucksName" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ChromDriver" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RubberDucksTest" />
+      <option name="METHOD_NAME" value="containDucksName" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RubberDucksTest.containNameDucks" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ChromDriver" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RubberDucksTest" />
+      <option name="METHOD_NAME" value="containNameDucks" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -117,11 +122,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.RubberDucksTest" />
-        <item itemvalue="TestNG.LoginTest" />
-        <item itemvalue="TestNG.RubberDucksTest.sortByDateTest" />
-        <item itemvalue="TestNG.RubberDucksTest.quantityDucksTest" />
-        <item itemvalue="TestNG.LoginTest.TestIncorrectLogin" />
+        <item itemvalue="TestNG.RubberDucksTest.containDescriptionDucks" />
+        <item itemvalue="TestNG.RubberDucksTest.containNameDucks" />
+        <item itemvalue="TestNG.RubberDucksTest.containDucksDescription" />
+        <item itemvalue="TestNG.RubberDucksTest.containDucks" />
+        <item itemvalue="TestNG.RubberDucksTest.containDucksName" />
       </list>
     </recent_temporary>
   </component>
@@ -407,7 +412,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681382292742</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="Add Selenide to the MainPage and to theRubberDucksPage">
+      <created>1681382617010</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1681382617012</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -422,7 +434,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add getWindowHandles Frame_switchTo class" />
     <MESSAGE value="Add switchTo().window()" />
     <MESSAGE value="Add PageObject class" />
     <MESSAGE value="Add DucksTestIncorrectLogin" />
@@ -447,7 +458,8 @@
     <MESSAGE value="Add WebDriverRunner to the BaseTest&#10;Add $ to the MainPage" />
     <MESSAGE value="Add Selenide to the MainPage" />
     <MESSAGE value="Add Selenide to the RubberDucksPage" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Selenide to the RubberDucksPage" />
+    <MESSAGE value="Add Selenide to the MainPage and to theRubberDucksPage" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Selenide to the MainPage and to theRubberDucksPage" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -459,7 +471,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/test/java/RubberDucksTest.java</url>
-          <line>17</line>
+          <line>22</line>
           <properties class="RubberDucksTest" method="sortByDateTest">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
