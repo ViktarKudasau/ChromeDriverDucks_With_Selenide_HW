@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b10a24e6-5333-4c59-bd7f-fd772b1a6b07" name="Changes" comment="Add Selenide to the MainPage">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pageOblects/RubberDucksPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageOblects/RubberDucksPage.java" afterDir="false" />
+    <list default="true" id="b10a24e6-5333-4c59-bd7f-fd772b1a6b07" name="Changes" comment="Add Selenide to the RubberDucksPage">
+      <change beforePath="$PROJECT_DIR$/src/test/java/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/LoginTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -401,7 +400,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681379916124</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="Add Selenide to the RubberDucksPage">
+      <created>1681382292742</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1681382292742</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -416,7 +422,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add switchTo to the Frame_switchTo class" />
     <MESSAGE value="Add getWindowHandles Frame_switchTo class" />
     <MESSAGE value="Add switchTo().window()" />
     <MESSAGE value="Add PageObject class" />
@@ -441,7 +446,8 @@
     <MESSAGE value="Add options &quot;invocationCount and priority&quot; to the LoginTest" />
     <MESSAGE value="Add WebDriverRunner to the BaseTest&#10;Add $ to the MainPage" />
     <MESSAGE value="Add Selenide to the MainPage" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Selenide to the MainPage" />
+    <MESSAGE value="Add Selenide to the RubberDucksPage" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Selenide to the RubberDucksPage" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
